@@ -62,7 +62,7 @@ class Book
     {    //Exercise 2.85
         System.out.printf("The author of the book is %s: \nThe title of the book is %s: \nThe book has %d pages: ",author, title, pages);
         if (refNumber.length() == 0){
-            System.out.println("\nThe reference number of the book is ??? ");
+            System.out.println("\nThe reference number of the book is ZZZ ");
         } else {
             System.out.println("\nThe reference number of the book is "+refNumber);
         }
